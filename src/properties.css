@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Permanent+Marker&family=Roboto:ital,wght@0,100;1,900&display=swap');
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Equal width for each column */
+    grid-template-rows: repeat(3, 1fr); /* Equal height for each row */
+    gap: 10px;
+    width: 100vh;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+.item {
+    border: 5px solid #000; /* Add a border to each item (cell) */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    background-color: aliceblue;
+}
+.init{
+    border: 5px solid black;
+}
+body{
+    background-color: greenyellow;
+}
+h1, .item {
+    font-family: 'Roboto', sans-serif; /* Apply the Roboto font to .item and .init */
+
+}
